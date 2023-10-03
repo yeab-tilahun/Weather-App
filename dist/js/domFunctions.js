@@ -129,6 +129,7 @@ const getWeatherClass = (icon) => {
     } else {
         weatherClass = "night"
     }
+    return weatherClass
 }
 
 const setBGImage = (weatherClass) => {
